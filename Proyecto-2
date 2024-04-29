@@ -1,1 +1,18 @@
-Console.WriteLine("Hola mundo");
+string usuario, contrasena;
+string usuarioC = "Angel_Aceituno";
+string contrasenaC = "123";
+int intentosmax = 3;
+int intentos = 0;
+
+do
+{
+    Console.Clear();
+    Console.WriteLine("*********************************************");
+    Console.WriteLine("*        Sistema de Gestión Bancaria        *");
+    Console.WriteLine("*********************************************");
+    Console.WriteLine("Ingrese su nombre de usuario:");
+    usuario = Console.ReadLine();
+    Console.WriteLine("Ingrese su contrasena");
+    contrasena = Console.ReadLine();
+}
+while (intentos == intentosmax);
